@@ -131,6 +131,7 @@ section h3{
 .about .row .video-container video{
 	flex: 1 1 40rem;
 	position: relative;
+	width: 500px;
 }
 
 .about .row .video-container{
