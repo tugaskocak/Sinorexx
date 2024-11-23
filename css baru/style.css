@@ -1,0 +1,89 @@
+{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+a{
+	color: inherit;
+	text-decoration: none;
+}
+.medsos{
+	padding: 5px 0;
+	background-color: #08b208;
+}
+.medsos ul li{
+	display: inline-block;
+	color: #fff;
+	margin-right: 10px;
+}
+.container{
+	width: 80%;
+	margin: 0 auto;
+}
+header{
+	padding-bottom: 70px
+}
+header h1{
+	float: left;
+	padding: 15px 0;
+	color: #08b208;
+}
+header ul{
+	float: right;
+}
+header ul li{
+	display: inline-block;
+}
+header ul li a{
+	padding: 25px 20px;
+	display: inline-block;
+}
+header ul li a:hover{
+	background-color: #08b208;
+	color: #fff;
+}
+
+.banner{
+	height: 60vh;
+	background-image: url(/sinorex/6_20241102_085404_0002.png);
+	background-size: cover;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 25px
+}
+.banner:after{
+	content: " ";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgb(55, 230, 247,.6);
+}
+.banner h2{
+	color: #fff;
+	z-index: 1;
+	padding: 20px 25px;
+	border: 3px solid #fff;
+}
+
+.section {
+	padding: 100px 0;
+}
+
+.about h3 {
+	text-align: center;
+	padding:20px 0;
+	color: #08b208;
+	margin-bottom: 20px;
+}
+
+.about p{
+	color: #666;
+	word-spacing: 2px;
+	line-height: 25px;
+}
